@@ -1,6 +1,7 @@
 import numpy as np
 import random
 import time
+import argparse
 
 def arg_parse():
 	desc = 'Lottery parser'
@@ -12,7 +13,7 @@ def arg_parse():
 def convert_seed(seed):
 	return int(time.time() * seed)
 
-if __name__="__main__":
+if __name__=="__main__":
 	arg = arg_parse()
 
 	n_students = 150
